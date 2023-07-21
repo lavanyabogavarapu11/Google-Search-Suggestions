@@ -1,0 +1,95 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+.google-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .google-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+  }
+}
+
+.google-logo {
+  height: 60px;
+  width: 150px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .google-logo {
+    width: 450px;
+    height: 140px;
+  }
+}
+
+.search-input-suggestion-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border: 2px #64748b;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input-suggestion-container {
+    margin-top: 40px;
+    width: 500px;
+  }
+}
+.search-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  padding-top: 10px;
+  min-width: 300px;
+}
+
+.search-input {
+  color: #64748b;
+  font-family: 'open sans';
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.search-icon {
+  color: #0f172a;
+  font-weight: 500;
+  height: 20px;
+  width: 20px;
+}
+
+.suggestion-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .suggestions-list {
+    padding-left: 24px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+  }
+}
